@@ -2,7 +2,7 @@
 total_bill = float(input("Enter the total amount of bill:"))
 while(total_bill <= 0):
     print("Invalid Input")
-    total_bill = int(input("Enter the total amount of bill again:"))
+    total_bill = float(input("Enter the total amount of bill again:"))
 people_number = int(input("How many people want to split the bill?:"))
 while(people_number <= 0):
     print("Invalid Input")
