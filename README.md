@@ -1,6 +1,6 @@
-# Python Learning Sprint
+# Python Learning in 21 Days
 
-My journey learning Python from scratch — real projects, no copy-pasting.
+My journey learning Python from scratch — real projects, no copy-pasting. each folder show my progress of each day
 
 
 ## Tech Stack
