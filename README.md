@@ -20,4 +20,5 @@ From the root folder:
 -  unit_converter was a huge pain to make.
 -  Added the MBI_calculator.
 -  Bill Splitter is heree in all glory.
+-  Pizza Calculator for parties is here!
 -  Day 1 mistakes mostly come from not checking inputs, not testing , no attention to details
