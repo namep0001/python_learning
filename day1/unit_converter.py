@@ -6,8 +6,8 @@
 print("Welcome to Unit Convertor")
 print(
 "Type 1 to convert km to mile.\n Type 2 to convert miles to km.\n Type 3 to convert kg to lbs.\n Type 4 to convert lbs to kg.\n Type 5 to convert centimetre to inch.\n Type 6 to convert inch to centimetre.")
-choice = float(input("Your choice:"))
-number_to_convert = int(input("Enter the number you want to convert:"))
+choice = int(input("Your choice:"))
+number_to_convert = float(input("Enter the number you want to convert:"))
 if(choice == 1):
     print("1- km to mile.")
     miles_conv = number_to_convert * 0.6213711922
@@ -32,3 +32,5 @@ elif(choice == 6):
     print("6- inch to centimetre.")
     centimetre_conv = number_to_convert * 2.54
     print(f"{number_to_convert} inch is {centimetre_conv} centimetre.")
+else:
+    print("Invalid choice.")
