@@ -15,7 +15,7 @@ elif( choice == 1):
         total = total + grade
 
     average = total / number_of_student
-    print(f"{average:.2f}")
+    print(f"Average: {average:.2f}")
 
 else:
     print("Closing the program ...")
