@@ -3,7 +3,7 @@
 number = int(input("Enter a number:"))
 # if number is != int it gaves error/ program crash
 
-for i in range (1, 10):
+for i in range (1, 11):
     print(f"{number} * {i} = " , number * i)
 
 print("Do you want to enter another number? Y/N")
