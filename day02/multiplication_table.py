@@ -10,7 +10,7 @@ print("Do you want to enter another number? Y/N")
 answer = str(input("Y for yes , N for no :"))
 while(answer == "Y"):
     number = int(input("Enter a number:"))
-    for i in range (1, 10):
+    for i in range (1, 11):
         print(f"{number} * {i} = " , number * i)
     print("Do you want to enter another number? Y/N")
     answer = str(input("Y for yes , N for no :"))
