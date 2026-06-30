@@ -1,14 +1,10 @@
 # password_loop.py
 
 user_pass = ("123456Hello")
-print("Please enter your password")
-entered_pass = input("Password:")
-
-if(user_pass == entered_pass):
-    print("Login Successful.")
+entered_pass = ""
 
 while(user_pass != entered_pass):
-    print("Invalid Password.Try again.")
+    print("Please enter your password")
     entered_pass = input("Password:")
     if(user_pass == entered_pass):
         print("Login Successful.")
